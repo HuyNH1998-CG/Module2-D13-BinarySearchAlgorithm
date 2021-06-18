@@ -1,8 +1,8 @@
 public class BinarySearch {
     //left mean array min, right mean array max, ( find in range left to right)
     public static int binarySearch(int[] array, int left, int right, int value) {
-        int middle = (left + right) /2;
         if (right >= left){
+            int middle = (left + right) / 2;
             if(array[middle] == value) {
                 return middle;
             }
