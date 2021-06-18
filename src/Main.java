@@ -10,6 +10,6 @@ public class Main {
         }
         Arrays.sort(array);
         System.out.println(Arrays.toString(array));
-        System.out.println(BinarySearch.binarySearch(array, 0, array[array.length - 1], 18));
+        System.out.println(BinarySearch.binarySearch(array, 0, array[array.length - 1], 5));
     }
 }
